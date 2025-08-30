@@ -41,7 +41,7 @@ const playGame = (userChoice) => {
     //Draw Game
     drawGame();
   } else {
-    let userWin = true;
+    let userWin = true;gi
     if (userChoice === "rock") {
       //scissors, paper
       userWin = compChoice === "paper" ? false : true;
